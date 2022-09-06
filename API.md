@@ -434,6 +434,8 @@ Determines whether video audio should override background music/audio in Android
 * **false (default)** - Override background audio/music
 * **true** - Let background audio/music from other apps play
 
+Note: Allows multiple videos to play if set to `true`. If `false`, when one video is playing and another is started, the first video will be paused.
+
 Platforms: Android
 
 #### disableDisconnectError
